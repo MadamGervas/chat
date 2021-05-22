@@ -7,6 +7,6 @@ user
 
 messages
 - id INT NOT NULL AUTO_INCREMENT
-- send_time DATETIME NOT NULL
-- user_id INT NOT NULL (FOREIGN)
-- text TEXT NOT NULL
+- user_id INT NOT NULL
+- time DATETIME NOT NULL
+- message TEXT NOT NULL
